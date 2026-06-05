@@ -1,0 +1,35 @@
+42489 execve("/usr/games/bastet", ["bastet"], 0x7fffa922c458 /* 41 vars */) = 0
+42489 access("/etc/suid-debug", F_OK)   = -1 ENOENT (No such file or directory)
+42489 access("/etc/suid-debug", F_OK)   = -1 ENOENT (No such file or directory)
+42489 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+42489 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+42489 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=75436, ...}, AT_EMPTY_PATH) = 0
+42489 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libncurses.so.6", O_RDONLY|O_CLOEXEC) = 3
+42489 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=157776, ...}, AT_EMPTY_PATH) = 0
+42489 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+42489 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=200136, ...}, AT_EMPTY_PATH) = 0
+42489 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libboost_program_options.so.1.74.0", O_RDONLY|O_CLOEXEC) = 3
+42489 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=276664, ...}, AT_EMPTY_PATH) = 0
+42489 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+42489 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2260296, ...}, AT_EMPTY_PATH) = 0
+42489 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+42489 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=125488, ...}, AT_EMPTY_PATH) = 0
+42489 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+42489 newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+42489 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+42489 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=940560, ...}, AT_EMPTY_PATH) = 0
+42489 openat(AT_FDCWD, "/home/tomubt/.bastetrc", O_RDONLY) = 3
+42489 openat(AT_FDCWD, "/var/games/bastet.scores2", O_RDWR) = -1 EACCES (Permission denied)
+42489 openat(AT_FDCWD, "/home/tomubt/.bastetscores", O_RDWR) = 4
+42489 openat(AT_FDCWD, "/home/tomubt/.bastetscores", O_RDONLY) = 4
+42489 newfstatat(AT_FDCWD, "/home/tomubt/.terminfo", 0x64f11cdf3540, 0) = -1 ENOENT (No such file or directory)
+42489 newfstatat(AT_FDCWD, "/etc/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+42489 newfstatat(AT_FDCWD, "/lib/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+42489 newfstatat(AT_FDCWD, "/usr/share/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+42489 access("/etc/terminfo/x/xterm-256color", R_OK) = -1 ENOENT (No such file or directory)
+42489 access("/lib/terminfo/x/xterm-256color", R_OK) = 0
+42489 openat(AT_FDCWD, "/lib/terminfo/x/xterm-256color", O_RDONLY) = 3
+42489 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3852, ...}, AT_EMPTY_PATH) = 0
+42489 openat(AT_FDCWD, "/home/tomubt/.bastetrc", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+42489 openat(AT_FDCWD, "/home/tomubt/.bastetscores", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+42489 +++ exited with 0 +++
